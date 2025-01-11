@@ -13,7 +13,7 @@ const CampsiteDetailPage = () => {
         <Container>
             <SubHeader current={campsite.name} detail={true} />
             <Row>
-                <CampsiteDetail campsite={campsite} />
+                <CampsiteDetail campsiteId={campsiteId} />
                 <CommentsList campsiteId={campsiteId} />
             </Row>
         </Container>
